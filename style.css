@@ -19,7 +19,7 @@ ul{
 
 }
 li{
-float: left;
+float: right;
 }
 nav a{
     width: 120px;
@@ -36,4 +36,30 @@ nav a{
 nav a:hover{
     background: lightblue;
     color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    background: #f2f2f2;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.description{
+   padding: 15 px; 
+   text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    
+    
 }
