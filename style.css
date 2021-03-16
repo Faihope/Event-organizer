@@ -66,4 +66,10 @@ h1{
 
 footer{
     background: #584141;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: Arial;
 }
