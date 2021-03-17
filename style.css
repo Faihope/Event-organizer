@@ -74,3 +74,78 @@ h1{
     color: black;
     padding: 40px;
 }
+*{
+  box-sizing: border-box;  
+}
+body{
+    margin: 0;
+    background: #C6A1A1;
+}
+nav{
+  background-color: #594848;  
+  width: 100%;
+  overflow: auto;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+li{
+float: right;
+}
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #594848;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial;
+
+}
+nav a:hover{
+    background: lightblue;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    background: #f2f2f2;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.description{
+   padding: 15 px; 
+   text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    
+    
+}
+
+footer{
+    background: #584141;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
