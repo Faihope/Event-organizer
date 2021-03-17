@@ -17,9 +17,12 @@ ul{
     padding: 0;
     list-style: none;
 
+
 }
 li{
 float: right;
+font-style: italic;
+
 }
 nav a{
     width: 120px;
@@ -29,12 +32,12 @@ nav a{
     background: #594848;
     font-size: 17px;
     color: white;
-    padding: 20px 10px;
     font-family: Arial;
+    margin-top: 0px;
 
 }
 nav a:hover{
-    background: lightblue;
+    background: white;
     color: black;
 }
 .container{
@@ -62,14 +65,19 @@ h1{
     text-align: center;
     
     
+    
+    
 }
 
 footer{
     background: #584141;
-    padding: 15px;
+    padding: 20px;
     font-size: 17px;
     font-weight: bold;
     text-align: center;
     color: white;
     font-family: Arial;
+}
+.gallery:hover{
+    opacity: 0.3;
 }
