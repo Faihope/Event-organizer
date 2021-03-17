@@ -79,5 +79,10 @@ footer{
     font-family: Arial;
 }
 .gallery:hover{
-    opacity: 0.3;
+    opacity: 0.5;
+}
+h2{
+    text-align: center;
+    color: white;
+    
 }
