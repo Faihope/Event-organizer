@@ -21,3 +21,4 @@ Use this command to clone `$ git clone https://github.com/Faihope/Event-organize
 CSS
 JavaScript
 Git
+.
