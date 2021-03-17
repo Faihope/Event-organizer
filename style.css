@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    background: gray;
+    background: #C6A1A1;
 }
 nav{
   background-color: #594848;  
@@ -62,4 +62,14 @@ h1{
     text-align: center;
     
     
+}
+
+footer{
+    background: #584141;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: Arial;
 }
