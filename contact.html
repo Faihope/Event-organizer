@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <script type="text/javascript" src="contact.js"></script>
 </head>
 <body>
+    <div class="overlay">
+        <header> 
+     <div class="navdiv">
+        <img src="nomads.png" style="height: 100px; width: 200px;" height: 100px; alt="">
+        <div class="nav">
+            <nav>
+                <a href="home.html"> Home </a> 
+                <a href="about.html"> Services </a>
+                <a href="gallery.html"> Gallery </a>
+                <a href="about.html"> About </a>
+                <a href="contact.html"> Contact </a>
+             </nav>
+            </div>
+    </div>
+        </header>
+        <div class="cont">
+            <h2>Contact Us</h2>
+            <h4>Complete your details below and we'll be in touch soon.</h4>
+            <form action="" name="contact_us">
+                <input type="text" name="f1" placeholder="Your name:"><br><br>
+                <input type="text" name="f2" placeholder="Your Email:"><br><br>
+                <input type="text" name="f3" placeholder="Your Phone No:"><br><br>
+                <input type="text" name="f4" placeholder="Message:"><br><br>
+                <input type="button" id="b1" value="Submit" onclick="validate()">
+
+            </form>
+        </div>
+    </div>
+    <footer>
+            
+        <p>Copyright@ Nomads - 2021. All Rights Reserved</p>
+    </footer>
+
     
 </body>
 </html>
