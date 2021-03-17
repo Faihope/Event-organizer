@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body{
     background-image: url("./container.jpg");
     background-repeat: no-repeat;
@@ -81,6 +82,8 @@ h1{
     color: black;
     padding: 40px;
 }
+=======
+>>>>>>> 3d2409ab5ed03354f9c16c5b95c75371f5dd662e
 *{
   box-sizing: border-box;  
 }
