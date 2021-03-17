@@ -1,108 +1,116 @@
-.nav {
-    background-color: #584141;
-    display: flex;
-    justify-content: space-between;
-    overflow: auto;
-    margin: 0 auto; 
-
+body{
+  background: url('events-2609526_1920.jpg') no-repeat fixed 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: rgba(163, 160, 160, 0.5);
+  font-size: 20px;
 }
-nav{
-    float: right;
-    margin-top:  25px;
-    
-    
+.main_div{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  flex: 1;
+  text-align: center;
+  font-weight: 700;
 }
-.topnav a {
-    float:right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 15px;
-    font-size: 20px;
-    font-style: italic;
-    text-decoration: none;
-    
-    
-
-  }
-  .topnav a:hover {
-    background-color: rgb(248, 242, 242);
-    color: rgb(27, 10, 10);
-  }
-  .topnav a.active {
-    
-    
-  }
-  body{
-      background-image:url(./events-2609526_1920.jpg);
-      background-repeat:no-repeat;
-      background-size: cover;
-  }
-  #overlay {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 500px;
-    margin: 0 auto;
-    background-color: rgba(230, 224, 224, 0.5);
-    flex: 1;
-    text-align: center;
-    font-weight: 700;
-    font-style: italic;
-    
-  }
-  
-  #niche{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Rochester';
-    font-style: italic;
-    font-weight: 400;
-  }
-  #opennote{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'quando';
-    color: black;
-  }
-  footer{
-    display: flex;
+.over_lay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 253, 253, 0.5);
+  flex: 1;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 70px;
+  padding-top: 50px;
+}
+header{
+  background-color: #584141;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  margin-bottom: 80px;
+  text-align: center;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#niche{
+  display: flex;
   justify-content: center;
   align-items: center;
-  }
-  #topnote{
-      font-family: sans-serif;
-  }
-  .logo{
-      display: flex;
-      justify-content: space-between;
-      margin-left: 100px;
-      font-size: medium;
-      font-style: italic;
-  }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#584141;
-    color: white;
-    text-align: center;
-  }
-  .container {
-    position: relative;
-    max-width: 800px; 
-    margin: 0 auto; 
-  }
-  
-  .container .topnote {
-    position: absolute; 
-    bottom: 0; 
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 100%; 
-    padding: 20px; 
-  }
+  font-family: 'Rochester';
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+#opennote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'quando';
+  color: black;
+  font-size: 27px;
+}
+#topnote{
+  font-family: sans-serif;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container .topnote {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #F1F1F1;
+  width: 100%;
+  padding: 20px;
+}
+h1{
+  font-family: fantasy;
+  text-align: left;
+  float: left;
+}
+footer{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color:#584141;
+  padding: 30px;
+  overflow: hidden;
+  height: 80px;
+}
+nav{
+  display: flex;
+  float: right;
+}
+a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+a:hover{
+  color: red;
+}
+.navdiv{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  font-size: 25px;
+  font-style: italic;
+}
