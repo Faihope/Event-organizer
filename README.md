@@ -27,7 +27,7 @@ Use this command to clone `$ git clone https://github.com/Faihope/Event-organize
 4. Git
 
 ### Live Site
-View [live](https://)
+View [live](https://faihope.github.io/Event-organizer/)
 
 ### Licence
 This project is under the  [MIT](LICENSE) licence:<br>
