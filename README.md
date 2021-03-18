@@ -6,6 +6,8 @@ Jack Owour
 Allan Juma
 ## Description
 Its a website that displays the varios services we offer. 
+### Live Site
+View [live](https://github.com/Faihope/Event-organizer)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
@@ -20,4 +22,4 @@ Use this command to clone `$ git clone https://github.com/Faihope/Event-organize
  HTML
 CSS
 JavaScript
-Git
+Git.
